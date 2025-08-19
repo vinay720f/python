@@ -1,0 +1,8 @@
+a=input("enter a String:")
+b=""
+for i in a:
+    if i.isalpha():
+        b=b+i
+
+c=b.capitalize()
+print(c)
